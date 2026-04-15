@@ -4,6 +4,10 @@ gemspec
 gem "base64"
 gem "csv"
 
+gem "jekyll", "~> 3.9.0"
+gem "jekyll-remote-theme" # This is the "engine" that pulls the theme
+gem "just-the-docs"
+
 gem "jekyll-github-metadata", ">= 2.15"
 
 gem "jekyll-include-cache", group: :jekyll_plugins
@@ -25,3 +29,5 @@ group :development, :test do
   gem 'capybara-screenshot'
   gem 'selenium-webdriver'
 end
+
+
