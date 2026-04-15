@@ -1,2 +1,0 @@
-- name: Build with Jekyll
-  run: bundle exec jekyll build
